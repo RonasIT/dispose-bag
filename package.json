@@ -15,6 +15,11 @@
     "dispose"
   ],
   "author": "Alexander Storozhevsky <astorozhevsky@ronasit.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonasIT/dispose-bag"
+  },
+  "homepage": "https://github.com/RonasIT/dispose-bag#readme",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.11",
