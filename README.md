@@ -26,4 +26,4 @@ It provides an easy way to unsubscribe from multiple subscriptions.
 Add subscription by call `disposeBag.add(subscription)`. Also you can add
 named subscription by `disposeBag.add(secondSubscription, 'subscription')`.
 
-Call `disposeBag.unsubscribe()` to disposes the resources held by all subscriptions in the bag.
+Call `disposeBag.unsubscribe()` to dispose of the resources held by all subscriptions in the bag.
