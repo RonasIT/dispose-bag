@@ -19,7 +19,7 @@ describe('DisposeBag', () => {
         const subscription = new Subscription();
 
         disposeBag.add(subscription, 'subscription');
-        disposeBag.unsubscribe();
+        disposeBag.unsubscribe('subscription');
         expect(subscription.closed).to.equal(true);
     });
 
