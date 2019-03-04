@@ -9,6 +9,11 @@
     "build:watch": "tsc --watch",
     "lint": "tslint --project \"./tsconfig.json\""
   },
+  "keywords": [
+    "rxjs",
+    "subscription",
+    "dispose"
+  ],
   "author": "Alexander Storozhevsky <astorozhevsky@ronasit.com>",
   "license": "ISC",
   "dependencies": {
