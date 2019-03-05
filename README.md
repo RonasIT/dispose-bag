@@ -37,7 +37,7 @@ Call `disposeBag.unsubscribe()` to dispose of the resources held by all subscrip
 ```
 
 Also you can add named subscription by `disposeBag.add(secondSubscription, 'subscription')`
-and you can unsubscribe named subscription by `disposeBag.unsubscribe('subscription')`.
+Call `disposeBag.unsubscribe('subscription')` to unsubscribe from named subscription.
 
 
 ### Angular usage
@@ -91,7 +91,7 @@ And work with `Observable` like this:
     }
 ```
 
-So you don't need manually unsubscribe in `ngOnDestroy` like this:
+So you don't need manually unsubscribe in `ngOnDestroy` in this way:
 
 ```ts
  public ngOnDestroy(): void {
