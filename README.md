@@ -58,13 +58,7 @@ Implement base component like this:
      }
 ```
 
-Extend your components by `BaseComponent`.
-
-```ts
-    export class AccountOwnerAircraftsItemsComponent extends BaseComponent implements OnInit {
-```
-
-And work with `Observable` like this:
+Extend your components by `BaseComponent`. And work with `Observable` like this:
 
 ```ts
     public ngOnInit(): void {
