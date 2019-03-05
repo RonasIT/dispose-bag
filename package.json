@@ -1,5 +1,5 @@
 {
-  "name": "dispose-bag",
+  "name": "@ronas-it/dispose-bag",
   "version": "1.0.0",
   "description": "Dispose bag for RxJS subscriptions. Inspired by RxSwift.",
   "main": "index.js",
