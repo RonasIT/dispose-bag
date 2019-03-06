@@ -85,7 +85,9 @@ Extend your components by `BaseComponent`. And work with `Observable` like this:
     }
 ```
 
-So you don't need manually unsubscribe in `ngOnDestroy` in this way:
+### NOTE
+
+So you **DON'T NEED** manually unsubscribe in `ngOnDestroy` in this way:
 
 ```ts
  public ngOnDestroy(): void {
