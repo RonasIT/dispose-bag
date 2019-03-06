@@ -36,7 +36,7 @@ Call `disposeBag.unsubscribe()` to dispose of the resources held by all subscrip
      disposeBag.unsubscribe('subscription');
 ```
 
-Also you can add named subscription by `disposeBag.add(secondSubscription, 'subscription')`
+Also you can add named subscription by `disposeBag.add(secondSubscription, 'subscription')`.
 Call `disposeBag.unsubscribe('subscription')` to unsubscribe from named subscription.
 
 
