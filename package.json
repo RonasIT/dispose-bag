@@ -1,6 +1,6 @@
 {
   "name": "@ronas-it/dispose-bag",
-  "version": "1.0.6",
+  "version": "1.0.5",
   "description": "Dispose bag for RxJS subscriptions. Inspired by RxSwift.",
   "main": "dist/index.js",
   "scripts": {
@@ -21,9 +21,11 @@
   },
   "homepage": "https://github.com/RonasIT/dispose-bag#readme",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "lodash": "^4.17.11",
-    "rxjs": "~6.3.3",
+    "rxjs": "~6.3.3"
+  },
+  "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/lodash": "^4.14.119",
     "@types/mocha": "^5.2.6",
