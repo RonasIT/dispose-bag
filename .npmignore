@@ -8,7 +8,6 @@ tslint.json
 
 # compiled output
 /dist/src
-/dist/tests
 /tmp
 /out-tsc
 

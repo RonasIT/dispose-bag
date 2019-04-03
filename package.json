@@ -1,8 +1,9 @@
 {
   "name": "@ronas-it/dispose-bag",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Dispose bag for RxJS subscriptions. Inspired by RxSwift.",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.js",
   "scripts": {
     "test": "mocha --require ts-node/register ./tests/* --recursive",
     "build": "tsc",
